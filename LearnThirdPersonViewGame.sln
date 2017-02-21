@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{92A6DFFD-D2C4-B564-85DB-4D4C5F394B1E}") = "LearnThirdPersonViewGame", "Assembly-CSharp.csproj", "{7EE12EDE-B951-1968-4090-94F057C6E6FA}"
+EndProject
+Project("{92A6DFFD-D2C4-B564-85DB-4D4C5F394B1E}") = "LearnThirdPersonViewGame", "Assembly-CSharp-Editor-firstpass.csproj", "{A5EEC1F7-6792-B761-E64A-A8D6EB6A2B0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EE12EDE-B951-1968-4090-94F057C6E6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE12EDE-B951-1968-4090-94F057C6E6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE12EDE-B951-1968-4090-94F057C6E6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE12EDE-B951-1968-4090-94F057C6E6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EEC1F7-6792-B761-E64A-A8D6EB6A2B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EEC1F7-6792-B761-E64A-A8D6EB6A2B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EEC1F7-6792-B761-E64A-A8D6EB6A2B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EEC1F7-6792-B761-E64A-A8D6EB6A2B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
