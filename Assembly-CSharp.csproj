@@ -49,6 +49,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BasicUI.cs" />
+     <Compile Include="Assets\Scripts\CollectibleItem.cs" />
+     <Compile Include="Assets\Scripts\Devices\ColorChangeDevice.cs" />
+     <Compile Include="Assets\Scripts\Devices\DeviceOperator.cs" />
+     <Compile Include="Assets\Scripts\Devices\DeviceTrigger.cs" />
+     <Compile Include="Assets\Scripts\Devices\DoorOpenDevice.cs" />
+     <Compile Include="Assets\Scripts\Managers\IGameManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\InventoryManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\ManagerStatus.cs" />
+     <Compile Include="Assets\Scripts\Managers\Managers.cs" />
+     <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Scripts\RelativeMovement.cs" />
  <Reference Include="UnityEngine.Purchasing">

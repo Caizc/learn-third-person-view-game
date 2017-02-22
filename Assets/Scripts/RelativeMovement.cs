@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class RelativeMovement : MonoBehaviour
@@ -14,6 +12,7 @@ public class RelativeMovement : MonoBehaviour
     public float gravity = -9.8f;
     public float terminalVelocity = -10.0f;
     public float minFall = -1.5f;
+    public float pushForce = 3.0f;
 
     private float _vertSpeed;
     private CharacterController _characterController;
@@ -111,5 +110,11 @@ public class RelativeMovement : MonoBehaviour
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
         _contact = hit;
+
+        Rigidbody body = hit.collider.attachedRigidbody;
+        if (null != body && !body.isKinematic)
+        {
+            body.velocity = hit.moveDirection * pushForce;
+        }
     }
 }
